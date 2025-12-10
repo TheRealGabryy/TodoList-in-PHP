@@ -1,0 +1,81 @@
+:root {
+    --primary-font: Ubuntu;
+    --secondary-font: Zalando Sans SemiExpanded;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #212121;
+    color: white;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    height: 100vh;
+    width: 100%;
+}
+
+.header-title {
+    font-size: 72px;
+    color: white;
+    text-align: center;
+    font-family: var(--primary-font), sans-serif;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1b1b1b;
+    height: 100vh;
+    width: 100%;
+}
+
+.title {
+    font-size: 48px;
+    color: white;
+    text-align: center;
+    font-family: var(--secondary-font), sans-serif;
+}
+
+.submit-button {
+    background-color: #212121;
+    color: white;
+    border: none;
+    height: 36px;
+    width: 72px;
+    margin: 20px;
+}
+
+.submit-button:hover {
+    border: white 1px solid;
+    border-radius: 10px;
+    scale: 1.1;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.label {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin: 20px;
+    border: 3px solid rebeccapurple;
+    scale: 1.4;
+}
